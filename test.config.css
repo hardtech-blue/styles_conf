@@ -1,20 +1,6 @@
-@import url(https://allfont.es/allfont.css?fonts=roboto-bold);
-
-/*Roboto bold*/
-
-@import url(https://allfont.es/allfont.css?fonts=roboto-black);
-
-/*Roboto black*/
-
-@import url(https://allfont.es/allfont.css?fonts=roboto-light);
-
-/*Roboto light*/
-
-@import url(https://allfont.es/allfont.css?fonts=roboto-regular);
-
-/*Roboto regular*/
-
-/*! tailwindcss v3.0.7 | MIT License | https://tailwindcss.com*/
+/*
+! tailwindcss v3.0.7 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -437,102 +423,102 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.bg-pantone-blue-100{
+.bg-pantone-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(58 123 191 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-blue-200{
+.bg-pantone-blue-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(72 145 227 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-blue-300{
+.bg-pantone-blue-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(80 163 255 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-blue-400{
+.bg-pantone-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(43 88 138 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-blue-500{
+.bg-pantone-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 72 112 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-yellow-100{
+.bg-pantone-yellow-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 209 0 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-yellow-200{
+.bg-pantone-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 239 0 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-yellow-300{
+.bg-pantone-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 222 0 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-yellow-400{
+.bg-pantone-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(195 157 0 / var(--tw-bg-opacity));
 }
 
-.bg-pantone-yellow-500{
+.bg-pantone-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(170 137 0 / var(--tw-bg-opacity));
 }
 
-.text-pantone-blue-100{
+.text-pantone-blue-100 {
   --tw-text-opacity: 1;
   color: rgb(58 123 191 / var(--tw-text-opacity));
 }
 
-.text-pantone-blue-200{
+.text-pantone-blue-200 {
   --tw-text-opacity: 1;
   color: rgb(72 145 227 / var(--tw-text-opacity));
 }
 
-.text-pantone-blue-300{
+.text-pantone-blue-300 {
   --tw-text-opacity: 1;
   color: rgb(80 163 255 / var(--tw-text-opacity));
 }
 
-.text-pantone-blue-400{
+.text-pantone-blue-400 {
   --tw-text-opacity: 1;
   color: rgb(43 88 138 / var(--tw-text-opacity));
 }
 
-.text-pantone-blue-500{
+.text-pantone-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(35 72 112 / var(--tw-text-opacity));
 }
 
-.text-pantone-yellow-100{
+.text-pantone-yellow-100 {
   --tw-text-opacity: 1;
   color: rgb(255 209 0 / var(--tw-text-opacity));
 }
 
-.text-pantone-yellow-200{
+.text-pantone-yellow-200 {
   --tw-text-opacity: 1;
   color: rgb(255 239 0 / var(--tw-text-opacity));
 }
 
-.text-pantone-yellow-300{
+.text-pantone-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(255 222 0 / var(--tw-text-opacity));
 }
 
-.text-pantone-yellow-400{
+.text-pantone-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(195 157 0 / var(--tw-text-opacity));
 }
 
-.text-pantone-yellow-500{
+.text-pantone-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(170 137 0 / var(--tw-text-opacity));
 }
