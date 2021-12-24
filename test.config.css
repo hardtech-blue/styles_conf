@@ -1,8 +1,8 @@
-@import url(https://allfont.es/allfont.css?fonts=roboto-bold);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-/*
-! tailwindcss v3.0.7 | MIT License | https://tailwindcss.com
-*/
+/*R bold*/
+
+/*! tailwindcss v3.0.7 | MIT License | https://tailwindcss.com*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
