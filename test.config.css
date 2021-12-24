@@ -423,7 +423,92 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.bg-blue-500 {
+.bg-pantone-blue-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  background-color: rgb(58 123 191 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 145 227 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(80 163 255 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 88 138 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 72 112 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-yellow-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 209 0 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 222 0 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(195 157 0 / var(--tw-bg-opacity));
+}
+
+.bg-pantone-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(170 137 0 / var(--tw-bg-opacity));
+}
+
+.text-pantone-blue-100 {
+  --tw-text-opacity: 1;
+  color: rgb(58 123 191 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-200 {
+  --tw-text-opacity: 1;
+  color: rgb(72 145 227 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(80 163 255 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(43 88 138 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(35 72 112 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-100 {
+  --tw-text-opacity: 1;
+  color: rgb(255 209 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-300 {
+  --tw-text-opacity: 1;
+  color: rgb(255 222 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(195 157 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(170 137 0 / var(--tw-text-opacity));
 }
