@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-/*R bold*/
+/*Roboto bold*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/*Roboto black*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*Roboto light*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Roboto regular*/
 
 /*! tailwindcss v3.0.7 | MIT License | https://tailwindcss.com*/
 
@@ -473,6 +485,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-pantone-yellow-500{
   --tw-bg-opacity: 1;
   background-color: rgb(170 137 0 / var(--tw-bg-opacity));
+}
+
+.font-roboto-bold{
+  font-family: Roboto, sans-serif, !important;
+}
+
+.font-roboto-black{
+  font-family: Roboto, sans-serif;
+}
+
+.font-roboto-light{
+  font-family: Roboto, sans-serif, !important;
+}
+
+.font-roboto-regular{
+  font-family: Roboto, sans-serif;
 }
 
 .text-pantone-blue-100{
