@@ -453,6 +453,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 209 0 / var(--tw-bg-opacity));
 }
 
+.bg-pantone-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 239 0 / var(--tw-bg-opacity));
+}
+
 .bg-pantone-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 222 0 / var(--tw-bg-opacity));
@@ -496,6 +501,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-pantone-yellow-100 {
   --tw-text-opacity: 1;
   color: rgb(255 209 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-200 {
+  --tw-text-opacity: 1;
+  color: rgb(255 239 0 / var(--tw-text-opacity));
 }
 
 .text-pantone-yellow-300 {
