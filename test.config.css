@@ -488,7 +488,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-roboto-bold{
-  font-family: Roboto, sans-serif, !important;
+  font-family: Roboto, sans-serif;
 }
 
 .font-roboto-black{
@@ -496,7 +496,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-roboto-light{
-  font-family: Roboto, sans-serif, !important;
+  font-family: Roboto, sans-serif;
 }
 
 .font-roboto-regular{
