@@ -437,38 +437,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.ml-10{
-  margin-left: 2.5rem;
-}
-
-.ml-20{
-  margin-left: 5rem;
-}
-
-.ml-40{
-  margin-left: 10rem;
-}
-
-.mr-10{
-  margin-right: 2.5rem;
-}
-
-.mr-20{
-  margin-right: 5rem;
-}
-
-.mr-40{
-  margin-right: 10rem;
-}
-
-.ml-28{
-  margin-left: 7rem;
-}
-
-.mr-28{
-  margin-right: 7rem;
-}
-
 .bg-pantone-blue-100{
   --tw-bg-opacity: 1;
   background-color: rgb(58 123 191 / var(--tw-bg-opacity));
@@ -571,4 +539,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-pantone-blue-100{
   --tw-text-opacity: 1;
   color: rgb(58 123 191 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  .sm\:ml-40{
+    margin-left: 10rem;
+  }
+
+  .sm\:mr-40{
+    margin-right: 10rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:ml-40{
+    margin-left: 10rem;
+  }
+
+  .md\:mr-40{
+    margin-right: 10rem;
+  }
 }
