@@ -437,6 +437,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.ml-10{
+  margin-left: 2.5rem;
+}
+
+.ml-20{
+  margin-left: 5rem;
+}
+
+.ml-40{
+  margin-left: 10rem;
+}
+
+.mr-10{
+  margin-right: 2.5rem;
+}
+
+.mr-20{
+  margin-right: 5rem;
+}
+
+.mr-40{
+  margin-right: 10rem;
+}
+
+.ml-28{
+  margin-left: 7rem;
+}
+
+.mr-28{
+  margin-right: 7rem;
+}
+
 .bg-pantone-blue-100{
   --tw-bg-opacity: 1;
   background-color: rgb(58 123 191 / var(--tw-bg-opacity));
@@ -491,44 +523,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-pantone-blue-100{
+.text-pantone-yellow-500{
   --tw-text-opacity: 1;
-  color: rgb(58 123 191 / var(--tw-text-opacity));
-}
-
-.text-pantone-blue-200{
-  --tw-text-opacity: 1;
-  color: rgb(72 145 227 / var(--tw-text-opacity));
-}
-
-.text-pantone-blue-300{
-  --tw-text-opacity: 1;
-  color: rgb(80 163 255 / var(--tw-text-opacity));
-}
-
-.text-pantone-blue-400{
-  --tw-text-opacity: 1;
-  color: rgb(43 88 138 / var(--tw-text-opacity));
-}
-
-.text-pantone-blue-500{
-  --tw-text-opacity: 1;
-  color: rgb(35 72 112 / var(--tw-text-opacity));
-}
-
-.text-pantone-yellow-100{
-  --tw-text-opacity: 1;
-  color: rgb(255 209 0 / var(--tw-text-opacity));
-}
-
-.text-pantone-yellow-200{
-  --tw-text-opacity: 1;
-  color: rgb(255 239 0 / var(--tw-text-opacity));
-}
-
-.text-pantone-yellow-300{
-  --tw-text-opacity: 1;
-  color: rgb(255 222 0 / var(--tw-text-opacity));
+  color: rgb(170 137 0 / var(--tw-text-opacity));
 }
 
 .text-pantone-yellow-400{
@@ -536,7 +533,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(195 157 0 / var(--tw-text-opacity));
 }
 
-.text-pantone-yellow-500{
+.text-pantone-yellow-300{
   --tw-text-opacity: 1;
-  color: rgb(170 137 0 / var(--tw-text-opacity));
+  color: rgb(255 222 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-200{
+  --tw-text-opacity: 1;
+  color: rgb(255 239 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-yellow-100{
+  --tw-text-opacity: 1;
+  color: rgb(255 209 0 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-500{
+  --tw-text-opacity: 1;
+  color: rgb(35 72 112 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-400{
+  --tw-text-opacity: 1;
+  color: rgb(43 88 138 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-300{
+  --tw-text-opacity: 1;
+  color: rgb(80 163 255 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-200{
+  --tw-text-opacity: 1;
+  color: rgb(72 145 227 / var(--tw-text-opacity));
+}
+
+.text-pantone-blue-100{
+  --tw-text-opacity: 1;
+  color: rgb(58 123 191 / var(--tw-text-opacity));
 }
