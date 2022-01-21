@@ -615,26 +615,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
-@media (min-width: 640px){
-  .sm\:agaval-ml-40{
-    margin-left: 10rem !important;
-  }
-
-  .sm\:agaval-mr-40{
-    margin-right: 10rem !important;
-  }
+.hover\:agaval-bg-pantone-blue-200:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(72 145 227 / var(--tw-bg-opacity)) !important;
 }
 
 @media (min-width: 768px){
-  .md\:agaval-ml-40{
+  .md\:agaval-w-64{
+    width: 16rem !important;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:agaval-ml-40{
     margin-left: 10rem !important;
   }
 
-  .md\:agaval-mr-40{
+  .lg\:agaval-mr-40{
     margin-right: 10rem !important;
-  }
-
-  .md\:agaval-w-64{
-    width: 16rem !important;
   }
 }
