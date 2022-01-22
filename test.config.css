@@ -442,8 +442,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
-.agaval-mx-10{
+.agaval-ml-10{
   margin-left: 2.5rem !important;
+}
+
+.agaval-mr-10{
   margin-right: 2.5rem !important;
 }
 
@@ -631,12 +634,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 1536px){
-  .\32xl\:agaval-mx-40{
+@media (min-width: 1280px){
+  .xl\:agaval-ml-40{
     margin-left: 10rem !important;
-    margin-right: 10rem !important;
   }
 
+  .xl\:agaval-mr-40{
+    margin-right: 10rem !important;
+  }
+}
+
+@media (min-width: 1536px){
   .\32xl\:agaval-ml-40{
     margin-left: 10rem !important;
   }
