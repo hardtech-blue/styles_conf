@@ -645,3 +645,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 10rem !important;
   }
 }
+
+@media (min-width: 1536px){
+  .\32xl\:agaval-ml-40{
+    margin-left: 10rem !important;
+  }
+
+  .\32xl\:agaval-mr-40{
+    margin-right: 10rem !important;
+  }
+}
