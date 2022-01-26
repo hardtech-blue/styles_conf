@@ -486,6 +486,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-style: solid !important;
 }
 
+.agaval-border-blue-500{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity)) !important;
+}
+
 .agaval-bg-pantone-blue-100{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(58 123 191 / var(--tw-bg-opacity)) !important;
@@ -573,6 +578,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase !important;
 }
 
+.agaval-text-gray-900{
+  --tw-text-opacity: 1 !important;
+  color: rgb(17 24 39 / var(--tw-text-opacity)) !important;
+}
+
+.agaval-text-blue-600{
+  --tw-text-opacity: 1 !important;
+  color: rgb(37 99 235 / var(--tw-text-opacity)) !important;
+}
+
 .agaval-text-pantone-yellow-500{
   --tw-text-opacity: 1 !important;
   color: rgb(170 137 0 / var(--tw-text-opacity)) !important;
@@ -623,9 +638,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
+.agaval-text-pantone-blue-100{
+  --tw-text-opacity: 1 !important;
+  color: rgb(58 123 191 / var(--tw-text-opacity)) !important;
+}
+
+.hover\:agaval-bg-pantone-blue-300:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(80 163 255 / var(--tw-bg-opacity)) !important;
+}
+
+.hover\:agaval-bg-blue-100:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity)) !important;
+}
+
 .hover\:agaval-bg-pantone-blue-200:hover{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(72 145 227 / var(--tw-bg-opacity)) !important;
+}
+
+.hover\:agaval-text-blue-600:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(37 99 235 / var(--tw-text-opacity)) !important;
 }
 
 @media (min-width: 768px){
@@ -641,6 +676,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:agaval-mr-40{
     margin-right: 10rem !important;
+  }
+
+  .xl\:agaval-ml-10{
+    margin-left: 2.5rem !important;
+  }
+
+  .xl\:agaval-mr-10{
+    margin-right: 2.5rem !important;
   }
 }
 
