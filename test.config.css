@@ -483,9 +483,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
+.bg-cyan-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 211 238 / var(--tw-bg-opacity));
+}
+
+.bg-pink-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
 .bg-pantone-blue-100{
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(58 123 191 / var(--tw-bg-opacity)) !important;
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 123 191 / var(--tw-bg-opacity));
 }
 
 .bg-pantone-blue-200{
