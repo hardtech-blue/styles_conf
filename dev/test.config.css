@@ -538,8 +538,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-pantone-blue-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(58 123 191 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(58 123 191 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-pantone-blue-200{
@@ -736,8 +736,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .text-pantone-blue-100{
-  --tw-text-opacity: 1;
-  color: rgb(58 123 191 / var(--tw-text-opacity));
+  --tw-text-opacity: 1 !important;
+  color: rgb(58 123 191 / var(--tw-text-opacity)) !important;
 }
 
 .shadow-sm{
@@ -747,8 +747,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .hover\:bg-pantone-blue-300:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 163 255 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(80 163 255 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-blue-100:hover{
