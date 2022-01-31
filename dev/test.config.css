@@ -450,8 +450,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow-colored: 0 0 #0000;
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .relative{
   position: relative;
+}
+
+.mx-7{
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
 }
 
 .mt-5{
@@ -460,6 +469,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-2{
   margin-left: 0.5rem;
+}
+
+.-mt-2{
+  margin-top: -0.5rem;
 }
 
 .ml-3{
@@ -872,6 +885,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
+  .md\:mx-16{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:w-64{
     width: 16rem;
   }
